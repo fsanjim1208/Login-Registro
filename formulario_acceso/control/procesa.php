@@ -18,7 +18,7 @@
 
 
     }
-    else if ((empty($usuario) || empty($password)) && (empty($usuario) && empty($password))){
+    else if (empty($usuario) && empty($password)){
     
         echo "Faltan datos";
         
